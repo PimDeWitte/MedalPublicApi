@@ -53,38 +53,8 @@ https://api.gomedal.com/botclips?limit=50
 It returns a JSON array with content objects
 
 ```json
-[ { contentId: 493654,
-    contentType: 15,
-    categoryId: 41,
-    contentTitle: 'Josh_OG Shooting threw smoke? Explain?',
-    contentUrl: 'https://gomedal.com/clips/493654',
-    thumbnail1080p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-1080p.jpg',
-    thumbnail720p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-720p.jpg',
-    thumbnail480p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-480p.jpg',
-    thumbnail360p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-360p.jpg',
-    thumbnail240p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-240p.jpg',
-    thumbnail144p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-144p.jpg',
-    videoLengthSeconds: 31,
-    likes: 1,
-    views: 9,
-    thumbnailUrl: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-1080p.jpg',
-    credits: 'Medal Discord,https://discord.gg/KEuwx6s,Discord' },
-  { contentId: 493659,
-    contentType: 15,
-    categoryId: 41,
-    contentTitle: 'Can I flip your car?',
-    contentUrl: 'https://gomedal.com/clips/493659',
-    thumbnail1080p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-1080p.jpg',
-    thumbnail720p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-720p.jpg',
-    thumbnail480p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-480p.jpg',
-    thumbnail360p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-360p.jpg',
-    thumbnail240p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-240p.jpg',
-    thumbnail144p: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-144p.jpg',
-    videoLengthSeconds: 5,
-    likes: 1,
-    views: 4,
-    thumbnailUrl: 'https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-1080p.jpg',
-    credits: 'Medal Discord,https://discord.gg/KEuwx6s,Discord' } ]
+[{"contentId":493654,"contentType":15,"categoryId":41,"contentTitle":"Josh_OG Shooting threw smoke? Explain?","contentUrl":"https://gomedal.com/clips/493654","thumbnail1080p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-1080p.jpg","thumbnail720p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-720p.jpg","thumbnail480p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-480p.jpg","thumbnail360p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-360p.jpg","thumbnail240p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-240p.jpg","thumbnail144p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-144p.jpg","videoLengthSeconds":31,"likes":1,"views":9,"thumbnailUrl":"https://s3.amazonaws.com/gomedal2/img/thumbnail-k0lezoeret3kyjjr-1080p.jpg","credits":"Medal Discord,https://discord.gg/KEuwx6s,Discord"},{"contentId":493659,"contentType":15,"categoryId":41,"contentTitle":"Can I flip your car?","contentUrl":"https://gomedal.com/clips/493659","thumbnail1080p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-1080p.jpg","thumbnail720p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-720p.jpg","thumbnail480p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-480p.jpg","thumbnail360p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-360p.jpg","thumbnail240p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-240p.jpg","thumbnail144p":"https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-144p.jpg","videoLengthSeconds":5,"likes":1,"views":4,"thumbnailUrl":"https://s3.amazonaws.com/gomedal2/img/thumbnail-s1a8urla2izl88q3-1080p.jpg","credits":"Medal Discord,https://discord.gg/KEuwx6s,Discord"}]
+
 ```
 
 
