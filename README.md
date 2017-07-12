@@ -30,7 +30,7 @@ https://api.gomedal.com/botclips
 
 Return 1 random clip (useful for .randomclip command):
 ```
-https://api.gomedal.com/botclips?random=true 
+https://api.gomedal.com/botclips?random=true&limit=1
 ```
 
 Return 1 random PUBG clip (useful for .randomclip command):
