@@ -1,6 +1,8 @@
 # Basic Calls
 Hi everyone, here are some example calls for Medal. All response are given in JSON only. We will add more functionality soon (such as being able to upvote inside discord, submitting clips, and seeing results from a specific discord channel. For now you'll have to use MedalBot for these features.)
 
+## Look at the examples!
+We have javascript examples and java examples so you can just drag and drop the code :-)
 
 ## Sync your game database with ours
 
