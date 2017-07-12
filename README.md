@@ -4,7 +4,8 @@ Hi everyone, here are some example calls for Medal. All response are given in JS
 
 ## Sync your game database with ours
 
-1) Get started by syncing your local games with ours. You can do this by syncing with our categories endpoint.
+
+Get started by syncing your local games with ours. You can do this by syncing with our categories endpoint.
 
 For example: Do a request to https://api.gomedal.com/categories and you'll receive a JSON array of categories like this:
 
@@ -14,7 +15,10 @@ For example: Do a request to https://api.gomedal.com/categories and you'll recei
 
 Simple save the categoryName and the categoryId to a local array and save it. You'll need it later.
 
-2) After you've synced the games, you can request trending clips. This is how it works:
+
+## Now you can make API calls
+
+After you've synced the games, you can request trending clips. This is how it works:
 
 Send a GET request to 
 
@@ -22,7 +26,7 @@ Send a GET request to
 https://api.gomedal.com/botclips
 ```
 
-###Here are some examples:
+### Here are some examples:
 
 Return 1 random clip (useful for .randomclip command):
 ```
