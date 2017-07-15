@@ -226,16 +226,16 @@ class ExampleCategoryObject {
     }
 
     public int getIsFeatured() {
-        return isFeatured;
+        return 0;
     }
 
-    int categoryId;
-    String categoryName;
-    String categoryThumbnail;
-    String categoryBackground;
-    int categoryFollowers;
-    int categoryPublishers;
-    int isFeatured = 0;
+    private final int categoryId;
+    private final String categoryName;
+    private final String categoryThumbnail;
+    private final String categoryBackground;
+    private final int categoryFollowers;
+    private final int categoryPublishers;
+    //int isFeatured = 0; 
 
     public ExampleCategoryObject(int categoryId, String categoryName, String categoryThumbnail, int categoryFollowers, int categoryPublishers) {
 
@@ -245,7 +245,7 @@ class ExampleCategoryObject {
         this.categoryBackground = categoryThumbnail;
         this.categoryFollowers = categoryFollowers;
         this.categoryPublishers = categoryPublishers;
-        this.isFeatured = 0;
+        //this.isFeatured = 0;
     }
 
 
@@ -261,30 +261,29 @@ class ExampleContentObject {
      */
 
 
-    int contentId;
-    int contentType;
-    int categoryId;
-    String contentTitle;
+    private final int contentId;
+    private final int contentType;
+    private final int categoryId;
+    private final String contentTitle;
 
-    // original content urk
-    String contentUrl;
+    // original content url
+    private final String contentUrl;
 
 
     //  thumbnail url
-    String thumbnail1080p;
-    String thumbnail720p;
-    String thumbnail480p;
-    String thumbnail360p;
-    String thumbnail240p;
-    String thumbnail144p;
+    private final String thumbnail1080p;
+    private final String thumbnail720p;
+    private final String thumbnail480p;
+    private final String thumbnail360p;
+    private final String thumbnail240p;
+    private final String thumbnail144p;
 
-    int videoLengthSeconds;
-    int likes = 0;
-    int views = 0;
+    private final int videoLengthSeconds;
+    private int likes = 0;
+    private int views = 0;
 
-    String thumbnailUrl;
-    String contentCredits;
-
+    private final String thumbnailUrl;
+    private final String contentCredits;
 
     public ExampleContentObject(
             int categoryId,
@@ -309,7 +308,6 @@ class ExampleContentObject {
         this.contentType = contentType;
         this.contentTitle = contentTitle;
         this.contentUrl = contentUrl;
-        this.videoLengthSeconds = videoLengthSeconds;
         this.contentCredits = credits;
         this.thumbnail1080p = thumbnail1080p;
         this.thumbnail720p = thumbnail720p;
